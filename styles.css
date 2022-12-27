@@ -1,0 +1,138 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  width: 350px;
+  margin: 50px auto;
+  box-shadow: -1px 20px 5px 16px hsl(214, 53%, 6%);
+}
+
+hr {
+  height: 1px;
+  background-color: hsl(215, 32%, 27%);
+  border: none;
+  margin: 0 20px;
+}
+
+
+.icon-sizing {
+  padding-right: 5px;
+  text-align: center;
+  margin-bottom: -1px;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  text-align: left;
+  padding-left: 20px;
+  margin-top: -4px;
+}
+
+#eth-color {
+  color: hsl(178, 100%, 50%);
+}
+
+#eth-days {
+  color: hsl(215, 51%, 70%);
+}
+
+.eth-d {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-weight: 300;
+}
+
+span {
+  color: hsl(0, 0%, 100%);
+}
+
+.p-description {
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.hero-wrapper{
+  position:relative;
+}
+
+.overlay-img{
+  width:300px;
+  height:300px;
+  margin:19px 10px;
+  border-radius:12px;
+  position:absolute;
+  left:14px;
+  top:0px;
+  opacity:0;
+}
+
+.overlay-img:hover{
+  opacity:0.7;
+  background-color:hsl(178, 100%, 50%);
+  cursor:pointer;
+}
+.overlay-img .view-icon{
+ display:block;
+ margin-top:135px;
+ margin-left:auto;
+ margin-right:auto;
+}
+.hero-img {
+  width: 300px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.footer {
+  padding: 20px;
+  padding-left: 20px;
+  font-size: 400;
+  display: flex;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+}
+
+.j-avatar {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid hsl(0, 0%, 100%);
+}
+
+span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 600px){
+  .main {
+    transform: scale(1.1);
+  }
+}
